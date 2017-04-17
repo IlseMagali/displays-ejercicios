@@ -1,7 +1,10 @@
 .caja {
-  display:inline;
+  display:inline-block;
   font-family:sans-serif;
   margin-right:5px;
+  height: 50px;
+  width: 180px;
+  padding-top: 5px;
 }
 
 .amarillo {
