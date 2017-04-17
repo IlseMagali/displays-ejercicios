@@ -1,4 +1,4 @@
-.caja {
+/*.caja {
   display:inline-block;
   font-family:sans-serif;
   margin-right:5px;
@@ -18,4 +18,37 @@
 
 .text-uppercase {
   text-transform: uppercase;
+}*/
+
+.cajagris {
+  background-color:#BBBDF4;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  z-index: 1;
+}
+
+.cajagrisBloque {
+  display:block;
+  margin-bottom: 10px;
+}
+
+.cajagrisInline {
+  display:inline-block;
+  /*position:relative;*/
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.padre {
+  /*position:absolute;*/
+  display:block;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 380px;
+  height: 110px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom:10px;
+  background-color: #BBBDF4;
 }
