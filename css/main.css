@@ -1,0 +1,19 @@
+.caja {
+  display:block;
+  font-family:sans-serif;
+  width: 500px;
+  padding-bottom: 50px;
+}
+
+.amarillo {
+  background-color: #FFE300;
+}
+
+.rojo {
+  background-color: #FF0A09;
+  border: 1px solid black;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
